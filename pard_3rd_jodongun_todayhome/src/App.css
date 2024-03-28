@@ -61,7 +61,7 @@ color
 }
 
 /*Email.js*/
-.email-frame{
+.form-email{
   width: 359px;
   height: 70px;
   display: flex;
@@ -70,6 +70,6 @@ color
 
 .email-input{
   height: 40px;
-  border-radius: 5px 0px 0px 0px;
-  border: 1px 0px 0px 0px;
+  border-radius: 5px;
+  border-color: #DBDBDB;
 }
