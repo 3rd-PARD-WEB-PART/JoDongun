@@ -21,6 +21,7 @@ color
 
 /*Header.js*/
 .header{
+  margin-top: 1%;
   width: 635px;
   height: 112px;
   background-color: #FFFFFF;
@@ -31,21 +32,25 @@ color
 .logo{
   width: 89.42px;
   height: 31px;
-  background-color: aqua;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 2%;
 }
 
+.logo:hover{
+  cursor: pointer;
+}
+
 /*Form.js*/
 .form-frame{
   width: 635px;
-  height: 600px;
-  background-color: blue;
+  height: 650px;
+  background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 20px;
 }
 
 .form{
@@ -57,13 +62,14 @@ color
   font-family: Inter;
   font-size: 15px;
   font-weight: 700;
-  /* line-height: 24.2px; */
 }
 
 .check-member{
   width: 360px;
   display: flex;
   justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .check-member a:link {
@@ -74,14 +80,14 @@ color
   color : black;
 }
 .check-member a:hover {
-  color : red;
+  color : #757575;
 }
-.check-member a:active {
-  color : green
-}
+
 
 .font-20{
   font-size: 20px;
+  margin-bottom: 7%;
+  pointer-events: none;
 }
 
 /*Email.js*/
@@ -89,10 +95,56 @@ color
   width: 359px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 3%;
 }
 
 .email-input{
   height: 40px;
   border-radius: 5px;
   border-color: #DBDBDB;
+  margin-bottom: 5%;
+  border-width: 0.4px;
+  padding-left: 10px;
+}
+
+.email-input:hover{
+  border-color: gray;
+  outline: none;
+  border-width: 1px;
+}
+
+.email-input:focus{
+  border-color: #35C5F0;
+  outline: none;
+  border-width: 1px;
+}
+
+/*MemberSubmit.js*/
+
+.member-submit-button{
+  width: 359px;
+  height: 50px;
+  border-radius: 5px;
+  border-color: #35C5F0;
+  background-color: #35C5F0;
+  color: #FFFFFF;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20.57px;
+  text-align: center;
+  border-width: 0.4px;
+}
+
+.member-submit-button:hover{
+  cursor: pointer;
+  border-width: 1px;
+  border-color: gray;
+}
+
+
+
+.form-font{
+  margin-bottom: 8px;
+  pointer-events: none;
 }

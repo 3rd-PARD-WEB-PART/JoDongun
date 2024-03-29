@@ -3,7 +3,7 @@ import './App.css';
 function Email(){
     return(
         <div className="form-email">
-            이메일
+            <div className="form-font">이메일</div>
             <input className="email-input" type="email" placeholder="이메일"/>
         </div>
     )

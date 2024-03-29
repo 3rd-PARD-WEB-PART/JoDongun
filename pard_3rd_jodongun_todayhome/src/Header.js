@@ -4,7 +4,7 @@ function Header(){
     return(
         <div className="header">
             <div className="logo">
-                오늘의 집
+                <img src="./Logo.png"/>
             </div>
         </div>
     )

@@ -3,6 +3,7 @@ import Email from './Email';
 import Password from './Password';
 import Checkpass from './Checkpass';
 import Nickname from './Nickname';
+import MemberSubmit from './MemberSubmit';
 
 function Form() {
     return(
@@ -15,8 +16,9 @@ function Form() {
                 <Password/>
                 <Checkpass/>
                 <Nickname/>
+                <MemberSubmit/>
                 <div className="check-member">
-                    이미 아이디가 있으신가요?
+                    이미 아이디가 있으신가요?&nbsp;&nbsp;
                     <a href="">로그인</a>
                 </div>
             </div>
