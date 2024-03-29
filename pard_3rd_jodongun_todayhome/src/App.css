@@ -55,15 +55,38 @@ color
   height: 600px;
   background-color: #FFFFFF;
   font-family: Inter;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 700;
-  line-height: 24.2px;
+  /* line-height: 24.2px; */
+}
+
+.check-member{
+  width: 360px;
+  display: flex;
+  justify-content: center;
+}
+
+.check-member a:link {
+  color : black;
+}
+
+.check-member a:visited {
+  color : black;
+}
+.check-member a:hover {
+  color : red;
+}
+.check-member a:active {
+  color : green
+}
+
+.font-20{
+  font-size: 20px;
 }
 
 /*Email.js*/
 .form-email{
   width: 359px;
-  height: 70px;
   display: flex;
   flex-direction: column;
 }
