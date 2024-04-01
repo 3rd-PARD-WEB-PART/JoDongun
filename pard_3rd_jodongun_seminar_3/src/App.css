@@ -51,3 +51,9 @@
   display: flex;
   justify-content: space-around;
 }
+
+.header-menubar-right-button{
+  width: 100px;
+  height: 43px;
+  background-color: #35C5F0;
+}
