@@ -34,7 +34,8 @@
 }
 
 .header-menubar-right{
-  width: 60%;
+  /* width: 70%;  */
+  width: 60%; 
   display: flex;
   align-items: center;
 }
