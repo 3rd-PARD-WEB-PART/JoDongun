@@ -16,8 +16,8 @@ function Header(){
                         <img src="./scrap.png" alt="로고"/>
                         <img src="./notice.png" alt="로고"/>
                         <img src="./basket.png" alt="로고"/>
+                        <img src="./myprofile.png" alt="로고"/>
                     </div>
-                    <img src="./myprofile.png" alt="로고"/>
                     <button className="header-menubar-right-button">글쓰기</button>
                 </div>
             </div>
