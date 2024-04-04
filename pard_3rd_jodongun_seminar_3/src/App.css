@@ -148,4 +148,16 @@
 
 .profile-main-right{
   width: 65%;
+  padding-top: 3%;
+}
+
+.input-file{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 750px;
+  height: 200px;
+  border: 1px dashed;
+  margin-top: 2%;
+  margin-bottom: 10%;
 }
