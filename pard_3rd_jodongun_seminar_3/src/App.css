@@ -4,7 +4,8 @@
   height: 80px;
   display: flex;
   justify-content: center;
-  border: solid 1px lightgray;
+  border: solid lightgray;
+  border-width: 0 0 1px;
 }
 
 .header-menubar{
@@ -72,7 +73,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: solid 1px lightgray;
+  border: solid lightgray;
+  border-width: 0 0 1px;
 }
 
 .second-header-menu{
@@ -95,4 +97,55 @@
 
 .second-header-button:hover{
   cursor: pointer;
+}
+
+.third-whole{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.third-header-menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 650px;
+  height: 35px;
+}
+
+.third-header-button{
+  width: 85px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  font: inter;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.third-header-button:hover{
+  cursor: pointer;
+}
+
+.profile-main{
+  display: flex;
+  justify-content: main;
+  width: 75%;
+  height: 100%;
+}
+
+.profile-main-left{
+  width: 35%;
+  padding-top: 2%;
+}
+
+.my-profile{
+  width: 285px;
+  height: 460px;
+  background-color: red;
+}
+
+.profile-main-right{
+  width: 65%;
 }

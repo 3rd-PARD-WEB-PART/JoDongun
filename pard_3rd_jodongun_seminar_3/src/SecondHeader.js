@@ -1,6 +1,7 @@
 import './App.css';
+import ThirdHeader from './ThirdHeader';
 
-function SecondHeader(){
+function SecondHeader(props){
     return(
         <div className="second-header-whole">
             <div className="second-header-menu">
