@@ -151,6 +151,12 @@
   padding-top: 3%;
 }
 
+.input-div{
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 700;
+}
+
 .input-file{
   display: flex;
   justify-content: center;

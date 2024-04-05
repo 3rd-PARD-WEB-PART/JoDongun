@@ -22,13 +22,13 @@ function ThirdHeader() {
                     </div>
                 </div>
                 <div className="profile-main-right">
-                    <div>
+                    <div className="input-div">
                         사진 0
                         <div className="input-file">
                             + 첫번째 사진을 올려보세요
                         </div>
                     </div>
-                    <div>
+                    <div className="input-div">
                         집들이 0
                         <div className="input-file">
                             + 첫번째 집들이를 올려보세요
