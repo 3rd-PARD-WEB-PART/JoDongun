@@ -143,12 +143,47 @@
 .my-profile{
   width: 285px;
   height: 460px;
-  background-color: red;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my-profile-upside{
+  margin-top: 15px;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .profile-main-right{
   width: 65%;
   padding-top: 3%;
+}
+
+.main-profile-icon{
+  width: 130px;
+  height: 130px;
+}
+
+.profile-name{
+  font-size: 26px;
+  font-weight:700;
+}
+
+.profile-follow{
+  display: flex;
+  width: 120px;
+  justify-content: space-between;
+}
+
+.setting-button{
+  width: 60px;
+  height: 34px;
+  border-radius: 5px;
+  border-width: 0.3px;
 }
 
 .input-div{

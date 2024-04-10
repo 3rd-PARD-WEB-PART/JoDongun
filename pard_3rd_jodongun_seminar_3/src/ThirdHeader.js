@@ -18,7 +18,25 @@ function ThirdHeader() {
             <div className="profile-main">
                 <div className="profile-main-left">
                     <div className="my-profile">
-
+                        <div className="my-profile-upside">
+                            <img className="main-profile-icon" src="./mainprofile.png" alt="mainProfile" />
+                            <div className="profile-name">
+                                조동운
+                            </div>
+                            <div className="profile-follow">
+                                <div>
+                                    팔로워 0
+                                </div>
+                                <div>
+                                    팔로잉 0
+                                </div>
+                            </div>
+                            <div>
+                                <button className="setting-button">
+                                    설정
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="profile-main-right">
