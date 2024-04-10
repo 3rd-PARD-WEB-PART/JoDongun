@@ -1,7 +1,14 @@
 import './App.css';
 import { Link } from 'react-router-dom';
+import {useState, useEffect} from "react";
 
 function ThirdHeader() {
+    const [like, setLike] = useState(0);
+
+    useEffect(()=>{
+        
+    },[like]);
+
     return (
         <div className="third-whole">
             <div className="second-header-whole">
@@ -40,16 +47,35 @@ function ThirdHeader() {
                                 </Link>
                             </div>
                         </div>
+                        
                         <div className="my-profile-downside">
                             <div className="downside-button">
-                                <div>
+                                <div className='my-profie-iconbox'>
                                     <button className="my-profile-scrap" />
+                                    <div>
+                                        스크랩
+                                    </div>
+                                    <div className='my-profie-iconbox-number'>
+                                        0
+                                    </div>
                                 </div>
-                                <div>
-                                    <button className="my-profile-like" />
+                                <div className='my-profie-iconbox'>
+                                    <button onClick={()=>setLike(like+1)} className="my-profile-like" />
+                                    <div>
+                                        좋아요
+                                    </div>
+                                    <div className='my-profie-iconbox-number'>
+                                        {like}
+                                    </div>
                                 </div>
-                                <div>
+                                <div className='my-profie-iconbox'>
                                     <button className="my-profile-coupon" />
+                                    <div>
+                                        내 쿠폰
+                                    </div>
+                                    <div className='my-profie-iconbox-number'>
+                                        0
+                                    </div>
                                 </div>
                             </div>
                         </div>

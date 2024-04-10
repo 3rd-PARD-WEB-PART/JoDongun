@@ -1,0 +1,151 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  body{
+    background-color: #EAEBEF;
+  }
+  
+  /*
+  color
+  #35C5F0;
+  #FFFFFF;
+  #292929;
+  #DBDBDB; (input)
+  #EAEBEF; (hr)
+  #757575; (etc)
+  */
+  
+  /*Header.js*/
+  .header{
+    margin-top: 1%;
+    width: 635px;
+    height: 112px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo{
+    width: 89.42px;
+    height: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+  }
+  
+  .logo:hover{
+    cursor: pointer;
+  }
+  
+  /*Form.js*/
+  .form-frame{
+    width: 635px;
+    height: 650px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+  
+  .form{
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 600px;
+    background-color: #FFFFFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  
+  .check-member{
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  .check-member a:link {
+    color : black;
+  }
+  
+  .check-member a:visited {
+    color : black;
+  }
+  .check-member a:hover {
+    color : #757575;
+  }
+  
+  
+  .font-20{
+    font-size: 20px;
+    margin-bottom: 7%;
+    pointer-events: none;
+  }
+  
+  /*Email.js*/
+  .form-email{
+    width: 359px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%;
+  }
+  
+  .email-input{
+    height: 40px;
+    border-radius: 5px;
+    border-color: #DBDBDB;
+    margin-bottom: 5%;
+    border-width: 0.4px;
+    padding-left: 10px;
+  }
+  
+  .email-input:hover{
+    border-color: gray;
+    outline: none;
+    border-width: 1px;
+  }
+  
+  .email-input:focus{
+    border-color: #35C5F0;
+    outline: none;
+    border-width: 1px;
+  }
+  
+  /*MemberSubmit.js*/
+  
+  .member-submit-button{
+    width: 359px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: #35C5F0;
+    background-color: #35C5F0;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 20.57px;
+    text-align: center;
+    border-width: 0.4px;
+  }
+  
+  .member-submit-button:hover{
+    cursor: pointer;
+    border-width: 1px;
+    border-color: gray;
+  }
+  
+  
+  
+  .form-font{
+    margin-bottom: 8px;
+    pointer-events: none;
+  }
+  

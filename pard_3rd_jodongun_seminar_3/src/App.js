@@ -1,20 +1,14 @@
 import './App.css';
-import Header from './Header';
-import SecondHeader from './SecondHeader';
-import ThirdHeader from './ThirdHeader';
-import FourthHeader from './FourthHeader';
-import {Route, Routes} from 'react-router-dom';
+import LoginPage from './LoginPage';
+import MainPage from './MainPage';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
-      <Header/>
-      <SecondHeader/>
-      <Routes>
-        <Route path="/" element={<ThirdHeader/>}/>
-        <Route path="/memberEdit" element={<FourthHeader/>} />
-      </Routes>
-    </div>
+    <Routes>
+      <Route path="/" element={<LoginPage />} />
+      <Route path="/profile" element={<MainPage />} />
+    </Routes>
   );
 }
 

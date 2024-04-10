@@ -9,7 +9,7 @@ function SecondHeader(props) {
     return (
         <div className="second-header-whole">
             <div className="second-header-menu">
-                <NavLink to="/">
+                <NavLink to="/profile">
                     <button className="second-header-button">프로필</button>
                 </NavLink>
                 <button className="second-header-button">나의 설정</button>

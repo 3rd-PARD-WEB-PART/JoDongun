@@ -286,10 +286,19 @@
   justify-content: space-around;
 }
 
-.my-profile-icon{
-  width: 30px;
-  height: 25px;
+.my-profie-iconbox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font: inter;
 }
+
+.my-profie-iconbox-number{
+  font-family: inter;
+  font-weight: 700;
+}
+
 
 /*fourth.js*/
 
