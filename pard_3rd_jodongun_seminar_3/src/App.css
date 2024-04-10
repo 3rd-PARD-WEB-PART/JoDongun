@@ -258,9 +258,9 @@
 }
 
 .member-edit{
+  display: flex;
   margin-top: 3%;
-  width: 1236px;
-  height: 756px;
+  width: 70%;
   border: 1px solid lightgray;
   padding: 3% 3% 3% 3%;
 }
@@ -272,6 +272,7 @@
 .member-edit-header{
   font-size: 24px;
   font-weight: 700;
+  margin-bottom: 10%;
 }
 
 .profile-text{
@@ -281,6 +282,7 @@
 .member-edit-email{
   display: flex;
   align-items: center;
+  margin-bottom: 7%;
 }
 
 .memver-edit-email-input{
@@ -314,4 +316,44 @@
   height: 30px;
   border-radius: 3px;
   border-width: 0.3px;
+}
+
+.member-edit-right{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.test{
+  display: flex;
+  justify-content: right;
+}
+
+.withdrawal{
+  width: 70px;
+  height: 17px;
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+  color: red;
+}
+
+.withdrawal:hover{
+  cursor: pointer;
+}
+
+.edit-button{
+  width: 130px;
+  height: 43px;
+  background-color:#35C5F0;
+  color: #FFFFFF;
+  border-radius: 5px;
+  border-width: 0px;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.edit-button:hover{
+  cursor: pointer;
 }

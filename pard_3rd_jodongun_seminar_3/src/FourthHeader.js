@@ -25,15 +25,20 @@ function FourthHeader() {
                                 *필수항목
                             </div>
                         </div>
-                        <div className="memver-edit-email-input">
-                            <div>
-                                <input className="email-inputtag" />
+                        <div>
+                            <div className="memver-edit-email-input">
+                                <div>
+                                    <input className="email-inputtag" />
+                                </div>
+                                <div className="text">
+                                    @
+                                </div>
+                                <div>
+                                    <input className="email-inputtag" />
+                                </div>
                             </div>
-                            <div className="text">
-                                @
-                            </div>
                             <div>
-                                <input className="email-inputtag" />
+                                안녕하세요
                             </div>
                         </div>
                     </div>
@@ -95,7 +100,7 @@ function FourthHeader() {
                         </div>
                         <div className="memver-edit-email-input">
                             <div>
-                                <img src="profileimg.png" alt="프로필 이미지"/>
+                                <img src="profileimg.png" alt="프로필 이미지" />
                             </div>
                         </div>
                     </div>
@@ -110,6 +115,18 @@ function FourthHeader() {
                                 <input className="nickname-inputtag" />
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div className="member-edit-right">
+                    <div className="test">
+                        <button className="withdrawal">
+                            탈퇴하기
+                        </button>
+                    </div>
+                    <div className="test">
+                        <button className="edit-button">
+                            수정하기
+                        </button>
                     </div>
                 </div>
             </div>
