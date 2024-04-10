@@ -274,13 +274,19 @@
   font-weight: 700;
 }
 
+.profile-text{
+  margin-right: 3%;
+}
+
 .member-edit-email{
   display: flex;
+  align-items: center;
 }
 
 .memver-edit-email-input{
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .email-info{
@@ -301,4 +307,11 @@
 
 .text{
   color: gray;
+}
+
+.nickname-inputtag{
+  width: 400px;
+  height: 30px;
+  border-radius: 3px;
+  border-width: 0.3px;
 }

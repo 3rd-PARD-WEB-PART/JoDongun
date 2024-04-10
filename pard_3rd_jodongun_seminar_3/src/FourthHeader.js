@@ -36,7 +36,80 @@ function FourthHeader() {
                                 <input className="email-inputtag" />
                             </div>
                         </div>
-
+                    </div>
+                    <div className="member-edit-email">
+                        <div className="email-text">
+                            <div>
+                                별명
+                            </div>
+                            <div className="email-info">
+                                *필수항목
+                            </div>
+                        </div>
+                        <div className="memver-edit-email-input">
+                            <div>
+                                <input className="nickname-inputtag" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="member-edit-email">
+                        <div className="email-text">
+                            <div>
+                                홈페이지
+                            </div>
+                        </div>
+                        <div className="memver-edit-email-input">
+                            <div>
+                                <input className="nickname-inputtag" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="member-edit-email">
+                        <div className="email-text">
+                            <div>
+                                성별
+                            </div>
+                        </div>
+                        <div className="memver-edit-email-input">
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="member-edit-email">
+                        <div className="email-text">
+                            <div>
+                                생년월일
+                            </div>
+                        </div>
+                        <div className="memver-edit-email-input">
+                            <div>
+                                <input className="nickname-inputtag" />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="member-edit-email">
+                        <div className="profile-text">
+                            <div>
+                                프로필 이미지
+                            </div>
+                        </div>
+                        <div className="memver-edit-email-input">
+                            <div>
+                                <img src="profileimg.png" alt="프로필 이미지"/>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="member-edit-email">
+                        <div className="email-text">
+                            <div>
+                                한줄소개
+                            </div>
+                        </div>
+                        <div className="memver-edit-email-input">
+                            <div>
+                                <input className="nickname-inputtag" />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
