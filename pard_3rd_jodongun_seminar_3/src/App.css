@@ -252,6 +252,16 @@
   font-weight: 700;
 }
 
+.input-text{
+  display: flex;
+  align-items: center;
+}
+
+.input-text-number{
+  margin-left: 5px;
+  color: #35C5F0;
+}
+
 .input-file{
   display: flex;
   justify-content: center;

@@ -43,13 +43,13 @@ function ThirdHeader() {
                         <div className="my-profile-downside">
                             <div className="downside-button">
                                 <div>
-                                    <button className="my-profile-scrap"/>
+                                    <button className="my-profile-scrap" />
                                 </div>
                                 <div>
-                                    <button className="my-profile-like"/>
+                                    <button className="my-profile-like" />
                                 </div>
                                 <div>
-                                    <button className="my-profile-coupon"/>
+                                    <button className="my-profile-coupon" />
                                 </div>
                             </div>
                         </div>
@@ -57,13 +57,27 @@ function ThirdHeader() {
                 </div>
                 <div className="profile-main-right">
                     <div className="input-div">
-                        사진 0
+                        <div className="input-text">
+                            <div>
+                                사진
+                            </div>
+                            <div className='input-text-number'>
+                                0
+                            </div>
+                        </div>
                         <div className="input-file">
                             + 첫번째 사진을 올려보세요
                         </div>
                     </div>
                     <div className="input-div">
-                        집들이 0
+                        <div className="input-text">
+                            <div>
+                                집들이
+                            </div>
+                            <div className='input-text-number'>
+                                0
+                            </div>
+                        </div>
                         <div className="input-file">
                             + 첫번째 집들이를 올려보세요
                         </div>
