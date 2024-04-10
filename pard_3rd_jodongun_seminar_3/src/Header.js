@@ -14,7 +14,7 @@ function Header(){
                     <button className="header-menubar-left-button">인테리어/생활</button>
                 </div>
                 <div className="header-menubar-right">
-                    <input className="header-menubar-right-input" type="text"/>
+                    <input className="header-menubar-right-input" type="text" placeholder="통합검색"/>
                     <div className="mini-icon">
                         <img className="heder-image" src="./scrap.png" alt="로고"/>
                         <img className="heder-image" src="./notice.png" alt="로고"/>

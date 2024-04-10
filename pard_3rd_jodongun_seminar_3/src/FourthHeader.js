@@ -126,7 +126,7 @@ function FourthHeader() {
                         </button>
                     </div>
                     <div className="test">
-                        <Link to="/profile">
+                        <Link to="/">
                             <button className="edit-button">
                                 수정하기
                             </button>

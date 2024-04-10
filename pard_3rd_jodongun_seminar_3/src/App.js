@@ -11,7 +11,7 @@ function App() {
       <Header/>
       <SecondHeader/>
       <Routes>
-        <Route path="/profile" element={<ThirdHeader/>}/>
+        <Route path="/" element={<ThirdHeader/>}/>
         <Route path="/memberEdit" element={<FourthHeader/>} />
       </Routes>
     </div>

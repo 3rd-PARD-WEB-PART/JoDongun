@@ -50,6 +50,10 @@
   height: 35px;
   margin-left: 40px;
   margin-right: 10px;
+  text-indent: 35px;
+  background: url(../public/search.png) no-repeat 10px center;
+  background-size: 20px;
+  border-width: 0.3px;
 }
 
 .mini-icon{
@@ -99,6 +103,7 @@
   font-size: 18px;
   font-weight: 700;
 }
+
 
 .second-header-button:hover{
   cursor: pointer;
@@ -171,6 +176,51 @@
 .main-profile-icon{
   width: 130px;
   height: 130px;
+}
+
+.my-profile-scrap{
+  width: 30px;
+  height: 30px;
+  background-image: url(../public/profile_scrap.png);
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: top center;
+  border: none;
+  background-color: transparent;
+}
+
+.my-profile-scrap:hover{
+  cursor: pointer;
+}
+
+.my-profile-like{
+  width: 30px;
+  height: 30px;
+  background-image: url(../public/profile_like.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: top center;
+  border: none;
+  background-color: transparent;
+}
+
+.my-profile-like:hover{
+  cursor: pointer;
+}
+
+.my-profile-coupon{
+  width: 30px;
+  height: 30px;
+  background-image: url(../public/profile_coupon.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  border: none;
+  background-position: top center;
+  background-color: transparent;
+}
+
+.my-profile-coupon:hover{
+  cursor: pointer;
 }
 
 .profile-name{
