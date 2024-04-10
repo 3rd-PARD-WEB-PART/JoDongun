@@ -192,6 +192,10 @@
   background-color: #FFFFFF;
 }
 
+.setting-button:hover{
+  cursor: pointer;
+}
+
 .input-div{
   font-family: Inter;
   font-size: 18px;

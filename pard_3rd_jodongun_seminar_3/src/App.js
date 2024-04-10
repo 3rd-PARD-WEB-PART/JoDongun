@@ -3,17 +3,17 @@ import Header from './Header';
 import SecondHeader from './SecondHeader';
 import ThirdHeader from './ThirdHeader';
 import FourthHeader from './FourthHeader';
-import {useState, useEffect} from "react";
+import {Route, Routes} from 'react-router-dom';
 
 function App() {
-  const content = "";
-
   return (
     <div>
       <Header/>
       <SecondHeader/>
-      <FourthHeader/>
-      {/* <ThirdHeader/> */}
+      <Routes>
+        <Route path="/profile" element={<ThirdHeader/>}/>
+        <Route path="/memberEdit" element={<FourthHeader/>} />
+      </Routes>
     </div>
   );
 }

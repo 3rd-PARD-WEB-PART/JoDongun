@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function FourthHeader() {
     return (
         <div className="forth-whole">
@@ -37,8 +39,8 @@ function FourthHeader() {
                                     <input className="email-inputtag" />
                                 </div>
                             </div>
-                            <div>
-                                안녕하세요
+                            <div className="email-info">
+                                이메일을 변경하시려면 운영자에게 이메일을 보내주세요.
                             </div>
                         </div>
                     </div>
@@ -124,9 +126,11 @@ function FourthHeader() {
                         </button>
                     </div>
                     <div className="test">
-                        <button className="edit-button">
-                            수정하기
-                        </button>
+                        <Link to="/profile">
+                            <button className="edit-button">
+                                수정하기
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>

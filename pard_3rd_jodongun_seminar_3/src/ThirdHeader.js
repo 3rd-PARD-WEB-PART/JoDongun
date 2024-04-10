@@ -1,4 +1,5 @@
 import './App.css';
+import { Link } from 'react-router-dom';
 
 function ThirdHeader() {
     return (
@@ -32,16 +33,18 @@ function ThirdHeader() {
                                 </div>
                             </div>
                             <div>
-                                <button className="setting-button">
-                                    설정
-                                </button>
+                                <Link to="/memberEdit">
+                                    <button className="setting-button">
+                                        설정
+                                    </button>
+                                </Link>
                             </div>
                         </div>
                         <div className="my-profile-downside">
                             <div className="downside-button">
                                 <div>
                                     <img className="my-profile-icon" src="./profile_scrap.png" alt="logo" />
-                                </div> 
+                                </div>
                                 <div>
                                     <img className="my-profile-icon" src="./profile_like.png" alt="logo" />
                                 </div>
