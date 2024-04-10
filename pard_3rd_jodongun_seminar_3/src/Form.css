@@ -3,21 +3,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+}
   
-  body{
-    background-color: #EAEBEF;
-  }
-  
-  /*
-  color
-  #35C5F0;
-  #FFFFFF;
-  #292929;
-  #DBDBDB; (input)
-  #EAEBEF; (hr)
-  #757575; (etc)
-  */
+body{
+    background-color: #FFFFFF;
+}
   
   /*Header.js*/
   .header{
@@ -43,6 +33,7 @@
   }
   
   /*Form.js*/
+  
   .form-frame{
     width: 635px;
     height: 650px;

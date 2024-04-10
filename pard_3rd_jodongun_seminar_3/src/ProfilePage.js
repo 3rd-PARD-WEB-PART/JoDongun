@@ -4,17 +4,14 @@ import SecondHeader from "./SecondHeader";
 import ThirdHeader from "./ThirdHeader";
 import FourthHeader from "./FourthHeader";
 
-function MainPage() {
+function ProfilePage() {
     return (
         <div>
             <Header />
             <SecondHeader />
             <ThirdHeader/>
-            <Routes>
-                <Route path="/memberEdit" element={<FourthHeader />} />
-            </Routes>
         </div>
     )
 }
 
-export default MainPage;
+export default ProfilePage;
