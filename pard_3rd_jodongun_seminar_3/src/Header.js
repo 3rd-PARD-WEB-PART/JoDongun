@@ -13,9 +13,9 @@ function Header(){
                 <div className="header-menubar-right">
                     <input className="header-menubar-right-input" type="text"/>
                     <div className="mini-icon">
-                        <img src="./scrap.png" alt="로고"/>
-                        <img src="./notice.png" alt="로고"/>
-                        <img src="./basket.png" alt="로고"/>
+                        <img className="heder-image" src="./scrap.png" alt="로고"/>
+                        <img className="heder-image" src="./notice.png" alt="로고"/>
+                        <img className="heder-image" src="./basket.png" alt="로고"/>
                         <img src="./myprofile.png" alt="로고"/>
                     </div>
                     <button className="header-menubar-right-button">글쓰기</button>

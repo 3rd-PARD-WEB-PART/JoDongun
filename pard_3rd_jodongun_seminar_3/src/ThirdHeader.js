@@ -37,6 +37,19 @@ function ThirdHeader() {
                                 </button>
                             </div>
                         </div>
+                        <div className="my-profile-downside">
+                            <div className="downside-button">
+                                <div>
+                                    <img className="my-profile-icon" src="./profile_scrap.png" alt="logo" />
+                                </div> 
+                                <div>
+                                    <img className="my-profile-icon" src="./profile_like.png" alt="logo" />
+                                </div>
+                                <div>
+                                    <img className="my-profile-icon" src="./profile_coupon.png" alt="logo" />
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className="profile-main-right">
