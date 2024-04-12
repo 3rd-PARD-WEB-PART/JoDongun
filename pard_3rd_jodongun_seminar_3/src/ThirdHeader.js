@@ -1,19 +1,35 @@
 import './App.css';
 import { Link } from 'react-router-dom';
-import {useState, useEffect} from "react";
+import {useState} from "react";
 
 function ThirdHeader() {
     const [like, setLike] = useState(0);
 
-    useEffect(()=>{
-        
-    },[like]);
+    const [latesSort, setLatesSort] = useState(true);
+
+    const toggleHandler = () => {
+        setLatesSort((prev) => (!prev));
+        if(latesSort === true) setLike(like+1);
+        else setLike(like-1);
+    }
+
+    const buttonStyle = {
+        width: "30px",
+        height: "30px",
+        backgroundImage: latesSort ? 'url("profile_like.png")' : 'url("like_active.png")',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: '25px',
+        backgroundPosition: 'top center',
+        border: 'none',
+        backgroundColor: 'transparent',
+    }
+
 
     return (
         <div className="third-whole">
             <div className="second-header-whole">
                 <div className="third-header-menu">
-                    <button className="third-header-button">모두 보기</button>
+                    <button className="third-header-button-this">모두 보기</button>
                     <button className="third-header-button">사진</button>
                     <button className="third-header-button">집들이</button>
                     <button className="third-header-button">노하우</button>
@@ -21,7 +37,6 @@ function ThirdHeader() {
                     <button className="third-header-button">스크랩북</button>
                     <button className="third-header-button">좋아요</button>
                 </div>
-
             </div>
             <div className="profile-main">
                 <div className="profile-main-left">
@@ -47,7 +62,7 @@ function ThirdHeader() {
                                 </Link>
                             </div>
                         </div>
-                        
+                        <hr className='line'/>
                         <div className="my-profile-downside">
                             <div className="downside-button">
                                 <div className='my-profie-iconbox'>
@@ -60,7 +75,7 @@ function ThirdHeader() {
                                     </div>
                                 </div>
                                 <div className='my-profie-iconbox'>
-                                    <button onClick={()=>setLike(like+1)} className="my-profile-like" />
+                                    <button onClick={toggleHandler} style={buttonStyle} />
                                     <div>
                                         좋아요
                                     </div>

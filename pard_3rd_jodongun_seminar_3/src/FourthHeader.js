@@ -5,7 +5,7 @@ function FourthHeader() {
         <div className="forth-whole">
             <div className="second-header-whole">
                 <div className="fourth-header-menu">
-                    <button className="fourth-header-button">회원정보수정</button>
+                    <button className="fourth-header-button-this">회원정보수정</button>
                     <button className="fourth-header-button">알림 설정</button>
                     <button className="fourth-header-button">사용자 숨기기 설정</button>
                     <button className="fourth-header-button">전문가 신청</button>

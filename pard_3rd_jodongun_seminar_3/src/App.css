@@ -138,6 +138,21 @@
   cursor: pointer;
 }
 
+.third-header-button-this{
+  width: 85px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  font: inter;
+  font-size: 16px;
+  font-weight: 700;
+  color: #35C5F0;
+}
+
+.third-header-button-this:hover{
+  cursor: pointer;
+}
+
 .profile-main{
   display: flex;
   justify-content: main;
@@ -274,7 +289,7 @@
 }
 
 .my-profile-downside{
-  height: 35%;
+  height: 25%;
   display: flex;
   width: 100%;
   justify-content: center;
@@ -327,6 +342,21 @@
 }
 
 .fourth-header-button:hover{
+  cursor: pointer;
+}
+
+.fourth-header-button-this{
+  width: 300px;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  font: inter;
+  font-size: 16px;
+  font-weight: 700;
+  color: #35C5F0;
+}
+
+.fourth-header-button-this:hover{
   cursor: pointer;
 }
 
@@ -429,4 +459,8 @@
 
 .edit-button:hover{
   cursor: pointer;
+}
+
+.line{
+  width: 230px;
 }
