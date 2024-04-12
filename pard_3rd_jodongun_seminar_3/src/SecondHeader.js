@@ -34,17 +34,18 @@ function SecondHeader(props) {
                 <NavLink to="/profile" style = {({isActive}) => (isActive ? style: defaultStyle)}>
                     프로필
                 </NavLink>
-                <NavLink to="/setting" style = {({isActive}) => (isActive ? style: defaultStyle)}>
-                    나의 설정
-                </NavLink>
-                <NavLink to="/review" style = {({isActive}) => (isActive ? style: defaultStyle)}>
-                    나의 리뷰
-                </NavLink>
+                <button className="second-header-button">나의 설정</button>
+                <button className="second-header-button">나의 리뷰</button>
                 <NavLink to="/memberEdit" style = {({isActive}) => (isActive ? style: defaultStyle)}>
                     설정
+                </NavLink> 
+
+                {/* <NavLink to="/style" style = {({isActive}) => (isActive ? style: defaultStyle)}>
+                    나의 설정
                 </NavLink>
-                {/* <button className="second-header-button">나의 설정</button>
-                <button className="second-header-button">나의 리뷰</button> */}
+                <NavLink style = {({isActive}) => (isActive ? style: defaultStyle)}>
+                    나의 리뷰
+                </NavLink> */}
             </div>
         </div>
     )

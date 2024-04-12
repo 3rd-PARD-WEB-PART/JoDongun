@@ -1,6 +1,46 @@
 import { Link } from "react-router-dom";
+//import { useState, useRef, previewImage } from "react";
 
 function FourthHeader() {
+    // const EditPhoto = () => {
+    //     const [imgFile, setImgFile] = useState("");
+    //     const [imgPath, setImgPath] = useState("");
+    //     const imgRef = useRef < HTMLInputElement > (null);
+    //     const MAX_IMAGE_SIZE_BYTES = 1024 * 1024 * 2;
+
+    //     return (
+    //         <div>
+    //             <label htmlFor="photo">
+    //                 <img
+    //                     src={imgPath ? imgPath : '../public/profileimg.png'}
+    //                 />
+    //             </label>
+    //             <input
+    //                 type="file"
+    //                 id="photo"
+    //                 name="photo"
+    //                 accept=".png, .jpeg, .jpg"
+    //                 onChange={previewImage}
+    //                 ref={imgRef}
+    //             />
+    //         </div>
+    //     )
+    // }
+
+    // const previewImage = () => {
+    //     if (imgRef.current && imgRef.current.files) {
+    //       const img = imgRef.current.files[0];
+    //       setImgFile(img);
+          
+    //       //이미지 미리보기 기능
+    //       const reader = new FileReader();
+    //       reader.readAsDataURL(img);
+    //       reader.onload = () => {
+    //         setImgPath(reader.result);
+    //       };
+    //     }
+    // };
+
     return (
         <div className="forth-whole">
             <div className="second-header-whole">
