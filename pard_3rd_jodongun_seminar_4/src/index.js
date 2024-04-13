@@ -3,11 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {BrowserRouter} from 'react-router-dom';
+import {RecoilRoot} from 'recoil';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  // 에러가 발생하는지 안하는지 중복 체크해주는 얘
   <React.StrictMode>
-    <App />
+    <RecoilRoot>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </RecoilRoot>
   </React.StrictMode>
 );
 
