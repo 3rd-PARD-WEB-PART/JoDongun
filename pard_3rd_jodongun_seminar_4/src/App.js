@@ -1,11 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import React from "react";
+import MyInfo from './Pages/MyInfo';
+import {Route, Routes} from "react-router-dom";
+import UpdateInfo from './Pages/UpdateInfo';
 
 function App() {
   return (
-    <div>
-      4차 세미나
-    </div>
+    <Routes>
+      <Route path="/" element={<MyInfo/>}/>
+      <Route path="/update" element={<UpdateInfo/>}/>
+    </Routes>
   );
 }
 
