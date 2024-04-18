@@ -10,10 +10,6 @@ export const myInfoName = atom({
     default: '조동운',
 })
 
-export const test = atom({
-    key: 'test',
-    default: 'test입니다.',
-})
 
 export const myInfoSelector = selector({
     key : 'myInfoSelector',
